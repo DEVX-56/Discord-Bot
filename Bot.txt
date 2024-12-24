@@ -1,0 +1,18 @@
+                    <h1>Discord BOT</h1>
+- Create a discord account also create a Server.
+- Open discord Setting then Advanced then turn on developer mode.
+- Now go discord developer portal site --> Applications --> New Applications --> Setup Application name 
+- Now go to Bot --> Set up bot name --> Set up Adminstration Permision to the Bot.
+- Now we have to grant permission to the bot, so it can work in server.
+- In Application page --> OAuth --> URL Generetor --> (Bot, Admin) --> Copy the genereted URL --> Paste the URL in a new Chrome tab and select the server from dropdown menu and continue with password.
+- Now we can interact through this particular bot.
+- To interact with bot we have to use a library (discord.js).
+- Install (discord.js) using npm.
+- Now we need to login as the bot.
+- Goto Application and Bot page --> reset Token --> Now the bot will give me a token || using this token we can login as a bot.
+- Import client and GatewayIntentBits in JS file
+- Create a new client, inside client we pass a intent. [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+#Intent:  means what type of permissions we are granting to the client
+- Client is now create Guilds and also create and update messages.
+- Now got to discord portal ---> Bot ---> messages content intent (trun it on).
+- 
