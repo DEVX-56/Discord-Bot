@@ -1,4 +1,5 @@
-                                #Discord Bot
+
+<h1>Discord Bot</h1>
 
 - This is just a demonstration of how we can make pesonal discord bot.
 - If we use this bot in our discord server,  when we send any message this bot will return ('hi fro bot').
